@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card{
+    min-width: 35%;
+    box-shadow: 10px 10px lightblue;
+    transition: 0.5s;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2%;
+}
+header {
+    font-size: larger;
+}
+header h1 {
+    background-color: rgba(#11ffee00);
+    color: blueviolet;
+    font-size: xx-large;
+    margin: 2%;
+}
+button {
+    font-size: large;
+    padding: 2%;
+}
+input {
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#inputDob {
+    margin: 2%;
+}
+p {
+    font-size: larger;
+    margin: 5%;
+}
+#currentAge {
+    min-width: 30%;
+    box-shadow: 0 3px 3px rgba(22, 20, 20);
+    transition: 0.3s;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5%;
+    padding-top: 7%;
+    font-size: larger;
+}
